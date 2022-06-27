@@ -1,6 +1,6 @@
 # relay2-player
 
-> An electron-vue project
+> An electron-vue project.
 
 #### Build Setup
 
