@@ -22,7 +22,7 @@ before_install:
 - if [[ "$TRAVIS_OS_NAME" == "osx" ]]; then brew install git-lfs; fi
 - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then sudo apt-get install --no-install-recommends -y icnsutils graphicsmagick xz-utils; fi
 install:
-- nvm install 10
+- nvm install 14
 - curl -o- -L https://yarnpkg.com/install.sh | bash
 - source ~/.bashrc
 - npm install -g xvfb-maybe
